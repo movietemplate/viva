@@ -1,0 +1,132 @@
+  Android Viva Questions
+
+1) What is Android?
+Android is an open-source, Linux-based operating system used in mobiles, tablets, televisions, etc.
+
+2) Who is the founder of Android?
+Andy Rubin.
+
+3) Explain the Android application Architecture.
+Following is a list of components of Android application architecture:
+Services: Used to perform background functionalities.
+Intent: Used to perform the interconnection between activities and the data passing mechanism.
+Resource Externalization: strings and graphics.
+Notification: light, sound, icon, notification, dialog box and toast.
+Content Providers: It will share the data between applications.
+4) What are the code names of android?
+1.Aestro
+2.Blender
+3.Cupcake
+4.Donut
+5.Eclair
+6.Froyo
+7.Gingerbread
+8.Honeycomb
+9.Ice Cream Sandwich
+10.Jelly Bean
+11.KitKat
+12.Lollipop
+13.Marshmallow
+5) What are the advantages of Android?
+Open-source: It means no license, distribution and development fee.
+Platform-independent: It supports Windows, Mac, and Linux platforms.
+Supports various technologies: It supports camera, Bluetooth, wifi, speech, EDGE etc. technologies.
+Highly optimized Virtual Machine: Android uses a highly optimized virtual machine for mobile devices, called DVM (Dalvik Virtual Machine).
+
+6) Does android support other languages than java?
+Yes, an android app can be developed in C/C++ also using android NDK (Native Development Kit). It makes the performance faster. It should be used with Android SDK.
+12
+7) What are the core building blocks of android?
+The core building blocks of Android are:
+Activity
+View
+Intent
+Service
+Content Provider
+Fragment etc.
+
+8) What is activity in Android?
+Activity is like a frame or window in java that represents GUI. It represents one screen of android.
+
+9) What are the life cycle methods of android activity?
+There are 7 life-cycle methods of activity. They are as follows:
+onCreate()
+1.onStart()
+2.onResume()
+3.onPause()
+4.onStop()
+5.onRestart()
+6.onDestroy()
+10) What is intent?
+It is a kind of message or information that is passed to the components. It is used to launch an activity, display a web page, send SMS, send email, etc. There are two types of intents in android:
+1.Implicit Intent
+2.Explicit Intent
+
+11) How are view elements identified in the android program?
+View elements can be identified using the keyword findViewById.
+
+12) Define Android toast.
+An android toast provides feedback to the users about the operation being performed by them. It displays the message regarding the status of operation initiated by the user.
+
+13) Give a list of impotent folders in android
+The following folders are declared as impotent in android:
+AndroidManifest.xml
+build.xml
+bin/
+src/
+res/
+assets/
+
+14) Explain the use of 'bundle' in android?
+We use bundles to pass the required data to various subfolders.
+
+15) What is an application resource file?
+The files which can be injected for the building up of a process are called as application resource file.
+16) What is the implicit intent in android?
+The Implicit intent is used to invoke the system components.
+
+17) What is explicit intent in android?
+An explicit intent is used to invoke the activity class.
+
+18) How to call another activity in android?
+1.	Intent i = new Intent(getApplicationContext(), ActivityTwo.class);  
+2.	startActivity(i);  
+
+19) What is service in android?
+A service is a component that runs in the background. It is used to play music, handle network transaction, etc.
+20) What is the name of the database used in android?
+SQLite: An opensource and lightweight relational database for mobile devices.
+21) What is fragment?
+The fragment is a part of Activity by which we can display multiple screens on one activity.
+
+22) What is ADB?
+ADB stands for Android Debug Bridge. It is a command line tool that is used to communicate with the emulator instance.
+
+23) What is the Google Android SDK?
+The Google Android SDK is a toolset which is used by developers to write apps on Android-enabled devices. It contains a graphical interface that emulates an Android-driven handheld environment and allows them to test and debug their codes.
+
+24) What is an APK format?
+APK is a short form stands for Android Packaging Key. It is a compressed key with classes, UI's, supportive assets and manifest. All files are compressed to a single file is called APK.
+
+25) Which language does Android support to develop an application?
+Android applications are written by using the java (Android SDK) and C/C++ (Android NDK).
+
+26) What is ADT in Android?
+ADT stands for Android Development Tool. It is used to develop the applications and test the applications.
+
+27) What is View Group in Android?
+View Group is a collection of views and other child views. It is an invisible part and the base class for layouts.
+
+28) What is the Adapter in Android?
+An adapter is used to create a child view to present the parent view items.
+
+29) What is nine-patch images tool in Android?
+We can change bitmap images into nine sections with four corners, four edges, and an axis.
+
+30) Which kernel is used in Android?
+Android is a customized Linux 3.6 kernel.
+31) What are the basic tools used to develop an Android app?
+JDK
+Eclipse+ADT plugin
+SDK Tools
+
